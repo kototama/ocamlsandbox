@@ -25,6 +25,7 @@ in
       base
       utop
       findlib
+      dune_2
     ];
     shellHook = ''
       alias utop="utop -init ${ocamlInit}"
