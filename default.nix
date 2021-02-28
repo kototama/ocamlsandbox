@@ -20,12 +20,14 @@ in
     name = "rwo-shell";
     buildInputs = with ocamlPackages; [
       ocaml
+      opam
       core
       core_extended
       base
       utop
       findlib
       dune_2
+      ocamlPackages.merlin
     ];
     shellHook = ''
       alias utop="utop -init ${ocamlInit}"
