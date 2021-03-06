@@ -27,7 +27,7 @@ in
       utop
       findlib
       dune_2
-      ocamlPackages.merlin
+      merlin
     ];
     shellHook = ''
       alias utop="utop -init ${ocamlInit}"
