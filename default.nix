@@ -28,6 +28,7 @@ in
       findlib
       dune_2
       merlin
+      graphics
     ];
     shellHook = ''
       alias utop="utop -init ${ocamlInit}"
