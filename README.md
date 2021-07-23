@@ -10,3 +10,13 @@
 dune build
 dune exec ./helloworld.exe
 ```
+
+## Creating new project
+
+Create a file called `dune` with content:
+
+```
+(executable
+  (name helloworld))
+```
+
